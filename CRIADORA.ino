@@ -110,7 +110,7 @@ void loop()
 
 ///////////////////////////////////////////////////////////////////CALOR ACTIVADO POR TEMPERATURA//////////////////////////////////////
   
-  if(temperatura >= 26)
+  if(temperatura <= 26)
   {
     digitalWrite(calor, HIGH);
     lcd.setCursor(7,3);
